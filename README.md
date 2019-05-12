@@ -2,7 +2,7 @@
 	
 ## Objective  
 	
-The Objective of this application is to create an application to capture the Food and Beverage preference that can be printed as a pdf file
+This application is to capture the Food and Beverage preference of an user that can be printed as a pdf file
 
 ## Prerequisites
  
