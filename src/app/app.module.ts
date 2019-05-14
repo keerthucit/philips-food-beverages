@@ -19,6 +19,7 @@ import { AuthenticationService } from './services/authentication.service';
 import { RouterService } from './services/router.service';
 import { CanActivateRouteGuard } from './can-activate-route.guard';
 import { UserDetailComponent } from './user-detail/user-detail.component';
+
 const appRoutes: Routes = [
   {
     path: '',
@@ -40,7 +41,8 @@ const appRoutes: Routes = [
     HeaderComponent,
     LoginComponent,
     DashboardComponent,
-    UserDetailComponent ],
+    UserDetailComponent,
+    ],
   imports: [ BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
@@ -56,7 +58,8 @@ const appRoutes: Routes = [
   providers: [ NotesService,
     AuthenticationService,
     RouterService,
-    CanActivateRouteGuard ],
+    CanActivateRouteGuard, 
+     ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
